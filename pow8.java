@@ -4,7 +4,7 @@ public class pow8{
         if(ex==0)return 1;
         return b*pow(b,ex-1);
     }
-    public Static void main(String args[]){
+    public static void main(String args[]){
         int res=pow(7,6);
         System.out.println(res);
     }
